@@ -27,7 +27,6 @@ There are 4 different types already set up for you: Success, Error, Warning, Mes
   s.requires_arc = true
 
   s.source_files = 'RMessage/**/*.{h,m}'
-  s.resources = ['RMessage/Resources/**/*.xib', 'RMessage/Assets/**/*.{imageset, png,jpg,json}']
   s.public_header_files = 'RMessage/*.h'
   s.ios.resource_bundle = { 'RMessage' => 'RMessage/Assets/**/*.{imageset, png,jpg,json}' }
   s.dependency 'HexColors', '~> 4.0'
